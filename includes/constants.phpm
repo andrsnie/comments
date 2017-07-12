@@ -1,0 +1,19 @@
+<?php
+
+/**
+* Global constants.
+*/
+
+	//my database's name
+	define("DATABASE", "comments");
+
+	//my database's password
+	define("PASSWORD", "fox");
+
+	//my database's server
+	define("SERVER", "localhost");
+
+	//my database's username
+	define("USERNAME", "AS");
+
+?>

@@ -1,0 +1,23 @@
+<?php
+
+	function renderHeader($title = 'Write your own new comment')
+	{
+
+?>
+
+	<html>
+		<head>
+			<title><?= htmlspecialchars($title) ?></title>
+		</head>
+		<body style="text-align: center;">
+			<img src = "Strawberry.jpg" alt = "Strawberry on snow" height = 100 width = 150>
+			<h1><?= htmlspecialchars($title) ?></h1>
+			<?php if ($title == "Comments")
+				echo "<a href = 'newPost.php'><img src = 'New.jpg' alt = 'New' height = 40 width = 35></a>";?>
+			<hr>
+
+<?php
+
+	}
+
+?>
